@@ -1,0 +1,120 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(238, 237, 167, 0.445);
+}
+
+.container-main {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.input {
+    margin: auto;
+    display: flex;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    height: 50%;
+    width: 20%;
+}
+
+.card h1{
+    font-size: 1.5rem;
+}
+
+.card p {
+    font-size: 1.5rem;
+}
+
+.card li {
+    margin: 10px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+ul, li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu {
+    padding: 20px;
+    background-color: rgba(173, 108, 22, 0.527);
+}
+
+.parrafo-link {
+    color: black;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.character-link {
+    text-decoration: none;
+    color: inherit; /* Esto asegura que el enlace mantenga el color del texto circundante */
+    text-align: center;
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out; /* Agregamos transición para color y decoración del texto */
+}
+
+.container-link {
+    border: 1px solid black;
+    margin: 10px;
+    width: 30%;
+}
+
+.container-link:hover{
+    background-color: rgba(144, 168, 8, 0.753);
+    transition: all 0.3s ease-in;
+}
+
+.container-link:hover .character-link {
+    text-decoration: none; /* Añade subrayado al pasar el ratón */
+}
+
+.menu-link {
+    background-color: rgba(85, 49, 2, 0.527);
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+}
+
+.boton {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: aqua;
+    font-size: 30px;
+    border: none;
+}
+
+.boton:hover {
+    cursor: pointer;
+}
